@@ -1,0 +1,30 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# datosIC
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of datosIC is to ...
+
+## Installation
+
+Instalar datosIC desde [GitHub](https://github.com) con:
+
+```{r}
+devtools::install_github("daniellaparada/datosIC")
+```
+

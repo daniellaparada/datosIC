@@ -1,0 +1,23 @@
+Package: datosIC
+Date: 2023-08-18
+Title: Colección de datasets, preprocesados a partir de datos abiertos, para su uso en docencia.
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = "Guillermo",
+           family = "Solovey",
+           role = c("aut", "cre"),
+           email = "gsolovey@ic.fcen.uba.ar",
+           comment = c(ORCID = "0000-0003-4093-2649")),
+    person(given = "Daniela",
+           family = "Parada",
+           role = c("aut"),
+           email = "daniela.parada@ic.fcen.uba.ar",
+           comment = c(ORCID = "0000-0001-9950-7845")))
+Description: Repositorio de datasets preprocesados a partir de datos abiertos para su uso en docencia. Más información: https://daniellaparada.github.io/IC-datasets-docencia/. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
+LazyData: true
