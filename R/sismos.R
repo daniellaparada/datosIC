@@ -4,14 +4,14 @@
 #'
 #' @format Un data frame con 55817 filas y 8 variables:
 #' \describe{
-#'   \item{Fecha}{Fecha del evento sísmico, en el formato año-mes-día.}
-#'   \item{Hora}{Hora del evento sísmico, en el formato hora-minuto-segundo.}
-#'   \item{Latitud}{Latitud del evento registrado.}
-#'   \item{Longitud}{Longitud del evento registrado.}
-#'   \item{Provincia}{Nombre de la provincia del evento registrado.}
-#'   \item{Percibido}{Registro de si la magnitud fue percibida, o no.}
-#'   \item{Magnitud}{Magnitud del sismo en la escala de Richter.}
-#'   \item{Profundidad}{Profundidad (km) registrada del sismo.}
+#'   \item{Fecha}{fecha del evento sísmico, en el formato año-mes-día}
+#'   \item{Hora}{hora del evento sísmico, en el formato hora-minuto-segundo}
+#'   \item{Latitud}{latitud del evento registrado}
+#'   \item{Longitud}{longitud del evento registrado}
+#'   \item{Provincia}{nombre de la provincia del evento registrado}
+#'   \item{Percibido}{registro de si la magnitud del evento fue percibida, o no}
+#'   \item{Magnitud}{magnitud del sismo en la escala de Richter}
+#'   \item{Profundidad}{profundidad (km) registrada del sismo}
 #' }
 #' @source \url{https://github.com/daniellaparada/IC-datasets-docencia/blob/main/fuente/04_visualizacion/sismos-arg.csv}
 "sismos"
