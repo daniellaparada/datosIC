@@ -1,5 +1,5 @@
 Package: datosIC
-Date: 2023-08-18
+Date: 2023-08-23
 Title: Colección de datasets, preprocesados a partir de datos abiertos, para su uso en docencia
 Version: 0.0.0.9000
 Authors@R: c(
