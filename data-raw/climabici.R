@@ -2,7 +2,6 @@
 
 climabici <- readr::read_csv("data-raw/clima-bici.csv")
 usethis::use_data(climabici, overwrite = TRUE)
-usethis::use_r("climabici")
 
 vars <- c(fecha = "fecha, en el formato año-mes-día",
           n = "cantidad de usos de bicletas del día",
