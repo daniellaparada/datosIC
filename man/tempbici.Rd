@@ -23,6 +23,6 @@ Un data frame con 333 filas y 7 variables:
 tempbici
 }
 \description{
-Datos de temperatura y de uso del sistema EcoBici en la Ciudad de Buenos Aires, Argentina, desde el 1 de enero de 2022, hasta el 31 de diciembre de 2022.
+Datos de temperatura y de uso del sistema EcoBici en la Ciudad de Buenos Aires, Argentina, desde el 4 de junio de 2022, hasta el 1ro de mayo de 2023.
 }
 \keyword{datasets}
