@@ -5,7 +5,7 @@
 #' @format Un data frame con 333 filas y 7 variables:
 #' \describe{
 #'   \item{fecha}{fecha, en el formato año-mes-día}
-#'   \item{n}{cantidad de usos de bicletas del día}
+#'   \item{n}{cantidad de usos de bicletas del día, considerando viajes con duración entre 5 y 60 minutos}
 #'   \item{tmin}{temperatura mínima (°C) del día}
 #'   \item{tmax}{temperatura máxima (°C) del día}
 #'   \item{tmed}{temperatura promedio (°C) del día}

@@ -8,7 +8,7 @@
 Un data frame con 363 filas y 9 variables:
 \describe{
 \item{fecha}{fecha, en el formato año-mes-día}
-\item{n}{cantidad de usos de bicletas del día}
+\item{n}{cantidad de usos de bicletas del día, considerando viajes con duración entre 5 y 60 minutos}
 \item{tavg}{temperatura promedio (°C) del día}
 \item{tmin}{temperatura mínima (°C) del día}
 \item{tmax}{temperatura máxima (°C) del día}
