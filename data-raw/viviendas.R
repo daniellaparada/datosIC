@@ -1,6 +1,9 @@
 ## code to prepare `viviendas` dataset goes here
+library(vroom)
+library(lubridate)
+library(tidyverse)
+library(stringr)
 
-usethis::use_data(viviendas, overwrite = TRUE)
 ct <- cols(
   tipo = col_character(),
   ciudad = col_character(),
@@ -15,6 +18,7 @@ ct <- cols(
 viviendas <- vroom("data-raw/viviendas.csv", col_types = ct)
 spec(viviendas)
 
+usethis::use_data(viviendas, overwrite = TRUE)
 vars <- c(tipo = "tipo de vivienda en venta",
           ciudad = "ciudad, municipio (GBA) o barrio (CABA) de la vivienda",
           provincia = "provincia (con distinción entre zonas de GBA y CABA)",
