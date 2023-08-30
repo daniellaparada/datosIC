@@ -1,6 +1,6 @@
 #' Datos de viviendas en venta
 #'
-#' Datos de viviendas en venta en Argentina, publicadas en el sitio inmobiliario online "Properatti" durante los años 2013 a 2018. Los datos corresponden a viviendas publicadas a menos 10M de USD y con superficie total cubierta menor a 1000 m2.
+#' Datos de viviendas en venta en Argentina, publicadas en el sitio inmobiliario online "Properati" durante los años 2013 a 2018. Los datos corresponden a viviendas publicadas a menos de 10M de USD y con superficie total cubierta menor a 1000 m2.
 #'
 #' @format Un data frame con 74714 filas y 11 variables:
 #' \describe{
