@@ -26,6 +26,6 @@ Un data frame con 1105 filas y 10 variables:
 jugadores
 }
 \description{
-Datos de jugadores de fútbol de primera división de Argentina al 2023.
+Datos de jugadores de fútbol de primera división de Argentina al 3 de mayo de 2023.
 }
 \keyword{datasets}

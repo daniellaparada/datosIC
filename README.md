@@ -15,6 +15,7 @@ Los *datasets* fueron revisados para asegurar que sean apropiados para su uso en
 Instalar datosIC desde [GitHub](https://github.com) con:
 
 ``` r
+require(devtools)
 devtools::install_github("daniellaparada/datosIC")
 #> Downloading GitHub repo daniellaparada/datosIC@HEAD
 #> ── R CMD build ─────────────────────────────────────────────────────────────────
@@ -28,4 +29,5 @@ devtools::install_github("daniellaparada/datosIC")
 #> 
 #> Installing package into 'C:/Users/dpara/AppData/Local/R/win-library/4.2'
 #> (as 'lib' is unspecified)
+library(datosIC)
 ```
