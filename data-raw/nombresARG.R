@@ -67,6 +67,20 @@ nombrarg <- nomfilt %>%
 
 colnames(nombrarg)[1] <- "nombre"
 
+nombrarg <- nombrarg %>%
+  group_by(nombre, anio) %>%
+  summarise(cantidad = sum(cantidad))
+
+nombrarg <- nombrarg %>%
+  arrange(-cantidad)
+
+nombrarg %>%
+  filter(nombre == "JUAN CARLOS")
+
+prueba <- nombrarg %>%
+  filter(nombre == "JUAN CARLOS")
+
+
 nombresARG <- nombrarg
 
 usethis::use_data(nombresARG, overwrite = TRUE)

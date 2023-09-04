@@ -5,7 +5,7 @@
 \alias{nombresARG}
 \title{Datos del histórico de nombres en Argentina}
 \format{
-Un data frame con 9064354 filas y 3 variables:
+Un data frame con 8887627 filas y 3 variables:
 \describe{
 \item{nombre}{nombre registrado, en mayúsculas y sin tilde}
 \item{cantidad}{cantidad de nombres registrados en el año}
