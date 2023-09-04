@@ -24,9 +24,11 @@ Los *datasets* fueron revisados para asegurar que sean apropiados para su uso en
 
 ## Installation
 
-Instalar datosIC desde [GitHub](https://github.com) con:
+Para instalar la librería datosIC en R desde [GitHub](https://github.com), usar:
 
 ```{r}
+require(devtools)
 devtools::install_github("daniellaparada/datosIC")
+library(datosIC)
 ```
 
