@@ -2,6 +2,11 @@
 
 usethis::use_data(flujoclima, overwrite = TRUE)
 flujoclima <- readr::read_csv("data-raw/flujo-clima.csv")
+
+flujoclima$dia <- factor(flujoclima$dia)
+flujoclima$tipo_dia <- factor(flujoclima$tipo_dia)
+flujoclima$fecha <- as.Date(flujoclima$fecha, format="%m-%d")
+
 readr::spec(flujoclima)
 usethis::use_data(flujoclima, overwrite = TRUE)
 

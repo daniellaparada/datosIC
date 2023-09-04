@@ -49,11 +49,19 @@ ct <- cols(
             Mes = col_double(),
             Anio = col_double())
 jugadores <- readr::read_delim("data-raw/jugador.csv", col_types = ct)
+readr::spec(jugadores)
 
+jugadores$Nacimiento <- as.Date(jugadores$Nacimiento, format="%d/%m/%Y")
+jugadores$Equipo <- factor(jugadores$Equipo)
+jugadores$Puesto <- factor(jugadores$Puesto)
+jugadores$Pais <- factor(jugadores$Pais)
+jugadores$Mes <- factor(jugadores$Mes)
+jugadores$Anio <- factor(jugadores$Anio)
+jugadores$Ciudad <- factor(jugadores$Ciudad)
 
 usethis::use_data(jugadores, overwrite = TRUE)
 
-readr::spec(jugadores)
+
 
 vars <- c(  Equipo = "equipo en el que juega",
             Puesto = "posición en la que juega",

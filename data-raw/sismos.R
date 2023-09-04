@@ -16,4 +16,6 @@ ct <- cols(
 
 sismos <- readr::read_csv("data-raw/sismos-arg.csv", col_types = ct)
 
+sismos$Provincia <- factor(sismos$Provincia)
+
 usethis::use_data(sismos, overwrite = TRUE)

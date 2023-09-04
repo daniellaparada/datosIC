@@ -1,6 +1,11 @@
 ## code to prepare `climabici` dataset goes here
 
 climabici <- readr::read_csv("data-raw/clima-bici.csv")
+climabici$dia <- factor(climabici$dia)
+climabici$tipo_dia <- factor(climabici$tipo_dia)
+climabici$lluvia <- factor(climabici$lluvia)
+
+readr::spec(climabici)
 usethis::use_data(climabici, overwrite = TRUE)
 
 vars <- c(fecha = "fecha, en el formato año-mes-día",
