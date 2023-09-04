@@ -12,22 +12,11 @@ Los *datasets* fueron revisados para asegurar que sean apropiados para su uso en
 
 ## Installation
 
-Instalar datosIC desde [GitHub](https://github.com) con:
+Para instalar la librería datosIC en R desde [GitHub](https://github.com), usar:
 
 ``` r
 require(devtools)
 devtools::install_github("daniellaparada/datosIC")
-#> Downloading GitHub repo daniellaparada/datosIC@HEAD
-#> ── R CMD build ─────────────────────────────────────────────────────────────────
-#>          checking for file 'C:\Users\dpara\AppData\Local\Temp\RtmpQHCxTr\remotes5a5062d718db\daniellaparada-datosIC-d479fd5/DESCRIPTION' ...  ✔  checking for file 'C:\Users\dpara\AppData\Local\Temp\RtmpQHCxTr\remotes5a5062d718db\daniellaparada-datosIC-d479fd5/DESCRIPTION'
-#>       ─  preparing 'datosIC':
-#>    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
-#>       ─  checking for LF line-endings in source and make files and shell scripts
-#>   ─  checking for empty or unneeded directories
-#>       ─  building 'datosIC_0.0.0.9000.tar.gz'
-#>      
-#> 
-#> Installing package into 'C:/Users/dpara/AppData/Local/R/win-library/4.2'
-#> (as 'lib' is unspecified)
 library(datosIC)
 ```
+
