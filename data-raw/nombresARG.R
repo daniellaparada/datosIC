@@ -85,6 +85,8 @@ nombresARG <- nombrarg
 
 usethis::use_data(nombresARG, overwrite = TRUE)
 
+load("C:/Users/dpara/Dropbox (Personal)/datosIC/data/nombresARG.rda")
+
 readr::spec(nombresARG)
 
 vars <- c(nombre = "nombre registrado",
