@@ -76,9 +76,9 @@ nombrarg <- nombrarg %>%
 
 nombresARG <- nombrarg
 
-#load("C:/Users/dpara/Dropbox (Personal)/datosIC/data/nombresARG.rda")
+load("C:/Users/dpara/Dropbox (Personal)/datosIC/data/nombresARG.rda")
 
-nombresARG <- nombresARG %>% filter(cantidad > 10)
+nombresARG <- nombresARG %>% filter(cantidad > 100)
 
 usethis::use_data(nombresARG, overwrite = TRUE)
 
