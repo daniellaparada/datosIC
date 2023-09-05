@@ -31,4 +31,3 @@ require(devtools)
 devtools::install_github("daniellaparada/datosIC")
 library(datosIC)
 ```
-

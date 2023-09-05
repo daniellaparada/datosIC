@@ -25,6 +25,7 @@ disponibiliza los **datasets** allí documentados.
 Para instalar la librería datosIC en R desde
 [GitHub](https://github.com), usar:
 
+
 ``` r
 require(devtools)
 devtools::install_github("daniellaparada/datosIC")
