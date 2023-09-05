@@ -78,7 +78,7 @@ nombresARG <- nombrarg
 
 #load("C:/Users/dpara/Dropbox (Personal)/datosIC/data/nombresARG.rda")
 
-nombresARG <- nombresARG %>% filter(anio > 1959)
+nombresARG <- nombresARG %>% filter(cantidad > 10)
 
 usethis::use_data(nombresARG, overwrite = TRUE)
 
