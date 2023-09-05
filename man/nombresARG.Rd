@@ -3,22 +3,22 @@
 \docType{data}
 \name{nombresARG}
 \alias{nombresARG}
-\title{Datos del histórico de nombres en Argentina}
+\title{Datos históricos de nombres en Argentina}
 \format{
-Un data frame con 8887627 filas y 3 variables:
+Un data frame con 6738043 filas y 3 variables:
 \describe{
-\item{nombre}{nombre registrado, en mayúsculas y sin tilde}
+\item{nombre}{nombre registrado}
 \item{cantidad}{cantidad de nombres registrados en el año}
 \item{anio}{año de registro}
 }
 }
 \source{
-\url{https://daniellaparada.github.io/IC-datasets-docencia/otros-datasets.html}
+\url{https://github.com/daniellaparada/IC-datasets-docencia/blob/main/fuente/04_visualizacion/sismos-arg.csv}
 }
 \usage{
 nombresARG
 }
 \description{
-Datos del histórico de nombres registrados ante el Registro Nacional de las Personas en Argentina desde 1922 y hasta 2015 agrupado por nombre y año.
+Datos del histórico de nombres registrados ante el Registro Nacional de las Personas en Argentina desde 1960 y hasta 2015 agrupado por nombre y año. Se preprocesó la base de \href{https://datos.gob.ar/dataset/otros-nombres-personas-fisicas/archivo/otros_2.1}{datos.gob.ar} excluyendo, entre otros, casos de múltiples nombres (especialmente, aquellos muy antiguos).
 }
 \keyword{datasets}

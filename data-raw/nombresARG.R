@@ -4,7 +4,7 @@ library(vroom)
 library(lubridate)
 library(tidyverse)
 library(stringr)
-nombrarg <- vroom("C:/Users/Daniela Parada/Desktop/nombres-arg.csv")
+nombrarg <- vroom("C:/Users/dpara/OneDrive/Escritorio/nombres-arg.csv")
 
 #Limpio
 nom <- nombrarg %>%
@@ -74,18 +74,13 @@ nombrarg <- nombrarg %>%
 nombrarg <- nombrarg %>%
   arrange(-cantidad)
 
-nombrarg %>%
-  filter(nombre == "JUAN CARLOS")
-
-prueba <- nombrarg %>%
-  filter(nombre == "JUAN CARLOS")
-
-
 nombresARG <- nombrarg
 
-usethis::use_data(nombresARG, overwrite = TRUE)
+#load("C:/Users/dpara/Dropbox (Personal)/datosIC/data/nombresARG.rda")
 
-load("C:/Users/dpara/Dropbox (Personal)/datosIC/data/nombresARG.rda")
+nombresARG <- nombresARG %>% filter(anio > 1959)
+
+usethis::use_data(nombresARG, overwrite = TRUE)
 
 readr::spec(nombresARG)
 
